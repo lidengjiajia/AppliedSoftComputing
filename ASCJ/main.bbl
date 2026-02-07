@@ -1,0 +1,257 @@
+\begin{thebibliography}{27}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Thomas(2017)}]{Thomas:2017}
+\bibinfo{author}{L.~C. Thomas},
+\newblock \bibinfo{title}{Credit scoring and its applications},
+\newblock \bibinfo{journal}{SIAM Monographs on Mathematical Modeling and
+  Computation}  (\bibinfo{year}{2017}).
+%Type = Article
+\bibitem[{Lessmann et~al.(2015)Lessmann, Baesens, Seow, and
+  Thomas}]{Lessmann:2015}
+\bibinfo{author}{S.~Lessmann}, \bibinfo{author}{B.~Baesens},
+  \bibinfo{author}{H.-V. Seow}, \bibinfo{author}{L.~C. Thomas},
+\newblock \bibinfo{title}{Benchmarking state-of-the-art classification
+  algorithms for credit scoring: An update of research},
+\newblock \bibinfo{journal}{European Journal of Operational Research}
+  \bibinfo{volume}{247} (\bibinfo{year}{2015}) \bibinfo{pages}{124--136}.
+%Type = Inproceedings
+\bibitem[{McMahan et~al.(2017)McMahan, Moore, Ramage, Hampson, and
+  y~Arcas}]{McMahan:2017}
+\bibinfo{author}{B.~McMahan}, \bibinfo{author}{E.~Moore},
+  \bibinfo{author}{D.~Ramage}, \bibinfo{author}{S.~Hampson},
+  \bibinfo{author}{B.~A. y~Arcas},
+\newblock \bibinfo{title}{Communication-efficient learning of deep networks
+  from decentralized data},
+\newblock in: \bibinfo{booktitle}{Artificial Intelligence and Statistics},
+  \bibinfo{organization}{PMLR}, \bibinfo{year}{2017}, pp.
+  \bibinfo{pages}{1273--1282}.
+%Type = Article
+\bibitem[{Yang et~al.(2019)Yang, Liu, Chen, and Tong}]{Yang:2019:FL}
+\bibinfo{author}{Q.~Yang}, \bibinfo{author}{Y.~Liu}, \bibinfo{author}{T.~Chen},
+  \bibinfo{author}{Y.~Tong},
+\newblock \bibinfo{title}{Federated machine learning: Concept and
+  applications},
+\newblock \bibinfo{journal}{ACM Transactions on Intelligent Systems and
+  Technology} \bibinfo{volume}{10} (\bibinfo{year}{2019})
+  \bibinfo{pages}{1--19}.
+%Type = Inproceedings
+\bibitem[{Blanchard et~al.(2017)Blanchard, El~Mhamdi, Guerraoui, and
+  Stainer}]{Blanchard:2017}
+\bibinfo{author}{P.~Blanchard}, \bibinfo{author}{E.~M. El~Mhamdi},
+  \bibinfo{author}{R.~Guerraoui}, \bibinfo{author}{J.~Stainer},
+\newblock \bibinfo{title}{Machine learning with adversaries: Byzantine tolerant
+  gradient descent},
+\newblock in: \bibinfo{booktitle}{Advances in Neural Information Processing
+  Systems}, volume~\bibinfo{volume}{30}, \bibinfo{year}{2017}, pp.
+  \bibinfo{pages}{119--129}.
+%Type = Article
+\bibitem[{Lamport et~al.(1982)Lamport, Shostak, and Pease}]{Lamport:1982}
+\bibinfo{author}{L.~Lamport}, \bibinfo{author}{R.~Shostak},
+  \bibinfo{author}{M.~Pease},
+\newblock \bibinfo{title}{The byzantine generals problem},
+\newblock \bibinfo{journal}{ACM Transactions on Programming Languages and
+  Systems} \bibinfo{volume}{4} (\bibinfo{year}{1982})
+  \bibinfo{pages}{382--401}.
+%Type = Inproceedings
+\bibitem[{Yin et~al.(2018)Yin, Chen, Kannan, and Bartlett}]{Yin:2018}
+\bibinfo{author}{D.~Yin}, \bibinfo{author}{Y.~Chen},
+  \bibinfo{author}{R.~Kannan}, \bibinfo{author}{P.~Bartlett},
+\newblock \bibinfo{title}{Byzantine-robust distributed learning: Towards
+  optimal statistical rates},
+\newblock in: \bibinfo{booktitle}{International Conference on Machine
+  Learning}, \bibinfo{organization}{PMLR}, \bibinfo{year}{2018}, pp.
+  \bibinfo{pages}{5650--5659}.
+%Type = Inproceedings
+\bibitem[{El~Mhamdi et~al.(2018)El~Mhamdi, Guerraoui, and
+  Rouault}]{ElMhamdi:2018}
+\bibinfo{author}{E.~M. El~Mhamdi}, \bibinfo{author}{R.~Guerraoui},
+  \bibinfo{author}{S.~Rouault},
+\newblock \bibinfo{title}{The hidden vulnerability of distributed learning in
+  byzantium},
+\newblock in: \bibinfo{booktitle}{International Conference on Machine
+  Learning}, \bibinfo{organization}{PMLR}, \bibinfo{year}{2018}, pp.
+  \bibinfo{pages}{3521--3530}.
+%Type = Inproceedings
+\bibitem[{Cao et~al.(2021)Cao, Fang, Liu, and Gong}]{Cao:2021}
+\bibinfo{author}{X.~Cao}, \bibinfo{author}{M.~Fang}, \bibinfo{author}{J.~Liu},
+  \bibinfo{author}{N.~Z. Gong},
+\newblock \bibinfo{title}{Fltrust: Byzantine-robust federated learning via
+  trust bootstrapping},
+\newblock in: \bibinfo{booktitle}{Network and Distributed Systems Security
+  Symposium}, \bibinfo{year}{2021}, pp. \bibinfo{pages}{1--18}.
+%Type = Inproceedings
+\bibitem[{Baruch et~al.(2019)Baruch, Baruch, and Goldberg}]{Baruch:2019}
+\bibinfo{author}{G.~Baruch}, \bibinfo{author}{M.~Baruch},
+  \bibinfo{author}{Y.~Goldberg},
+\newblock \bibinfo{title}{A little is enough: Circumventing defenses for
+  distributed learning},
+\newblock in: \bibinfo{booktitle}{Advances in Neural Information Processing
+  Systems}, volume~\bibinfo{volume}{32}, \bibinfo{year}{2019}, pp.
+  \bibinfo{pages}{1871--1881}.
+%Type = Inproceedings
+\bibitem[{Shejwalkar and Houmansadr(2021)}]{Shejwalkar:2021}
+\bibinfo{author}{V.~Shejwalkar}, \bibinfo{author}{A.~Houmansadr},
+\newblock \bibinfo{title}{Manipulating the byzantine: Optimizing model
+  poisoning attacks and defenses for federated learning},
+\newblock in: \bibinfo{booktitle}{Network and Distributed Systems Security
+  Symposium}, \bibinfo{year}{2021}, pp. \bibinfo{pages}{1--18}.
+%Type = Inproceedings
+\bibitem[{Allen-Zhu et~al.(2021)Allen-Zhu, Ebrahimianghazani, Li, and
+  Alistarh}]{Allen-Zhu:2020}
+\bibinfo{author}{Z.~Allen-Zhu}, \bibinfo{author}{F.~Ebrahimianghazani},
+  \bibinfo{author}{J.~Li}, \bibinfo{author}{D.~Alistarh},
+\newblock \bibinfo{title}{Byzantine-resilient non-convex stochastic gradient
+  descent},
+\newblock in: \bibinfo{booktitle}{International Conference on Learning
+  Representations}, \bibinfo{year}{2021}, pp. \bibinfo{pages}{1--25}.
+%Type = Inproceedings
+\bibitem[{Fang et~al.(2020)Fang, Cao, Jia, and Gong}]{Fang:2020}
+\bibinfo{author}{M.~Fang}, \bibinfo{author}{X.~Cao}, \bibinfo{author}{J.~Jia},
+  \bibinfo{author}{N.~Gong},
+\newblock \bibinfo{title}{Local model poisoning attacks to byzantine-robust
+  federated learning},
+\newblock in: \bibinfo{booktitle}{USENIX Security Symposium},
+  \bibinfo{year}{2020}, pp. \bibinfo{pages}{1605--1622}.
+%Type = Inproceedings
+\bibitem[{Xie et~al.(2019)Xie, Koyejo, and Gupta}]{Xie:2020}
+\bibinfo{author}{C.~Xie}, \bibinfo{author}{O.~Koyejo},
+  \bibinfo{author}{I.~Gupta},
+\newblock \bibinfo{title}{Fall of empires: Breaking byzantine-tolerant sgd by
+  inner product manipulation},
+\newblock in: \bibinfo{booktitle}{Uncertainty in Artificial Intelligence},
+  \bibinfo{organization}{PMLR}, \bibinfo{year}{2019}, pp.
+  \bibinfo{pages}{261--270}.
+%Type = Inproceedings
+\bibitem[{Tolpegin et~al.(2020)Tolpegin, Truex, Gursoy, and
+  Liu}]{Tolpegin:2020}
+\bibinfo{author}{V.~Tolpegin}, \bibinfo{author}{S.~Truex},
+  \bibinfo{author}{M.~E. Gursoy}, \bibinfo{author}{L.~Liu},
+\newblock \bibinfo{title}{Data poisoning attacks against federated learning
+  systems},
+\newblock in: \bibinfo{booktitle}{European Symposium on Research in Computer
+  Security}, \bibinfo{organization}{Springer}, \bibinfo{year}{2020}, pp.
+  \bibinfo{pages}{480--501}.
+%Type = Inproceedings
+\bibitem[{Bagdasaryan et~al.(2020)Bagdasaryan, Veit, Hua, Estrin, and
+  Shmatikov}]{Bagdasaryan:2020}
+\bibinfo{author}{E.~Bagdasaryan}, \bibinfo{author}{A.~Veit},
+  \bibinfo{author}{Y.~Hua}, \bibinfo{author}{D.~Estrin},
+  \bibinfo{author}{V.~Shmatikov},
+\newblock \bibinfo{title}{How to backdoor federated learning},
+\newblock in: \bibinfo{booktitle}{International Conference on Artificial
+  Intelligence and Statistics}, \bibinfo{organization}{PMLR},
+  \bibinfo{year}{2020}, pp. \bibinfo{pages}{2938--2948}.
+%Type = Article
+\bibitem[{Pillutla et~al.(2019)Pillutla, Kakade, and Harchaoui}]{Pillutla:2019}
+\bibinfo{author}{K.~Pillutla}, \bibinfo{author}{S.~M. Kakade},
+  \bibinfo{author}{Z.~Harchaoui},
+\newblock \bibinfo{title}{Robust aggregation for federated learning},
+\newblock \bibinfo{journal}{arXiv preprint arXiv:1912.13445}
+  (\bibinfo{year}{2019}).
+%Type = Inproceedings
+\bibitem[{Xie et~al.(2019)Xie, Koyejo, and Gupta}]{Xie:2019}
+\bibinfo{author}{C.~Xie}, \bibinfo{author}{S.~Koyejo},
+  \bibinfo{author}{I.~Gupta},
+\newblock \bibinfo{title}{Zeno: Distributed stochastic gradient descent with
+  suspicion-based fault-tolerance},
+\newblock in: \bibinfo{booktitle}{International Conference on Machine
+  Learning}, \bibinfo{organization}{PMLR}, \bibinfo{year}{2019}, pp.
+  \bibinfo{pages}{6893--6901}.
+%Type = Article
+\bibitem[{Fung et~al.(2020)Fung, Yoon, and Beschastnikh}]{Fung:2020}
+\bibinfo{author}{C.~Fung}, \bibinfo{author}{C.~J. Yoon},
+  \bibinfo{author}{I.~Beschastnikh},
+\newblock \bibinfo{title}{Mitigating sybils in federated learning poisoning},
+\newblock \bibinfo{journal}{arXiv preprint arXiv:1808.04866}
+  (\bibinfo{year}{2020}).
+%Type = Article
+\bibitem[{Li et~al.(2020)Li, Sahu, Talwalkar, and Smith}]{Li:2020:FL}
+\bibinfo{author}{T.~Li}, \bibinfo{author}{A.~K. Sahu},
+  \bibinfo{author}{A.~Talwalkar}, \bibinfo{author}{V.~Smith},
+\newblock \bibinfo{title}{Federated learning: Challenges, methods, and future
+  directions},
+\newblock \bibinfo{journal}{IEEE Signal Processing Magazine}
+  \bibinfo{volume}{37} (\bibinfo{year}{2020}) \bibinfo{pages}{50--60}.
+%Type = Inproceedings
+\bibitem[{Chen et~al.(2020)Chen, Kornblith, Norouzi, and
+  Hinton}]{Chen:2020:SimCLR}
+\bibinfo{author}{T.~Chen}, \bibinfo{author}{S.~Kornblith},
+  \bibinfo{author}{M.~Norouzi}, \bibinfo{author}{G.~Hinton},
+\newblock \bibinfo{title}{A simple framework for contrastive learning of visual
+  representations},
+\newblock in: \bibinfo{booktitle}{International Conference on Machine
+  Learning}, \bibinfo{organization}{PMLR}, \bibinfo{year}{2020}, pp.
+  \bibinfo{pages}{1597--1607}.
+%Type = Article
+\bibitem[{Wang et~al.(2024)Wang, Xiao, Wang, and Yao}]{Wang:2024:DSS}
+\bibinfo{author}{Z.~Wang}, \bibinfo{author}{J.~Xiao},
+  \bibinfo{author}{L.~Wang}, \bibinfo{author}{J.~Yao},
+\newblock \bibinfo{title}{A novel federated learning approach with knowledge
+  transfer for credit scoring},
+\newblock \bibinfo{journal}{Decision Support Systems} \bibinfo{volume}{177}
+  (\bibinfo{year}{2024}) \bibinfo{pages}{114084}.
+%Type = Article
+\bibitem[{Zheng et~al.(2020)Zheng, Erihe, Li, Tian, and Xiang}]{Zheng:2020}
+\bibinfo{author}{F.~Zheng}, \bibinfo{author}{Erihe}, \bibinfo{author}{K.~Li},
+  \bibinfo{author}{J.~Tian}, \bibinfo{author}{X.~Xiang},
+\newblock \bibinfo{title}{A vertical federated learning method for
+  interpretable scorecard and its application in credit scoring},
+\newblock \bibinfo{journal}{arXiv preprint arXiv:2009.06218}
+  (\bibinfo{year}{2020}).
+%Type = Article
+\bibitem[{Kang et~al.(2019)Kang, Xiong, Niyato, Xie, and Zhang}]{Kang:2019}
+\bibinfo{author}{J.~Kang}, \bibinfo{author}{Z.~Xiong},
+  \bibinfo{author}{D.~Niyato}, \bibinfo{author}{S.~Xie},
+  \bibinfo{author}{J.~Zhang},
+\newblock \bibinfo{title}{Incentive mechanism for reliable federated learning:
+  A joint optimization approach to combining reputation and contract theory},
+\newblock \bibinfo{journal}{IEEE Internet of Things Journal}
+  \bibinfo{volume}{6} (\bibinfo{year}{2019}) \bibinfo{pages}{10700--10714}.
+%Type = Article
+\bibitem[{Li et~al.(2020)Li, Sahu, Zaheer, Sanjabi, Talwalkar, and
+  Smith}]{Li:2020:FedProx}
+\bibinfo{author}{T.~Li}, \bibinfo{author}{A.~K. Sahu},
+  \bibinfo{author}{M.~Zaheer}, \bibinfo{author}{M.~Sanjabi},
+  \bibinfo{author}{A.~Talwalkar}, \bibinfo{author}{V.~Smith},
+\newblock \bibinfo{title}{Federated optimization in heterogeneous networks},
+\newblock \bibinfo{journal}{Proceedings of Machine Learning and Systems}
+  \bibinfo{volume}{2} (\bibinfo{year}{2020}) \bibinfo{pages}{429--450}.
+%Type = Inproceedings
+\bibitem[{Wei et~al.(2020)Wei, Li, Ding, Ma, Yang, Farokhi, Jin, Quek, and
+  Poor}]{Wei:2020:DP}
+\bibinfo{author}{K.~Wei}, \bibinfo{author}{J.~Li}, \bibinfo{author}{M.~Ding},
+  \bibinfo{author}{C.~Ma}, \bibinfo{author}{H.~H. Yang},
+  \bibinfo{author}{F.~Farokhi}, \bibinfo{author}{S.~Jin},
+  \bibinfo{author}{T.~Q. Quek}, \bibinfo{author}{H.~V. Poor},
+\newblock \bibinfo{title}{Federated learning with differential privacy:
+  Algorithms and performance analysis},
+\newblock in: \bibinfo{booktitle}{IEEE Transactions on Information Forensics
+  and Security}, volume~\bibinfo{volume}{15}, \bibinfo{year}{2020}, pp.
+  \bibinfo{pages}{3454--3469}.
+%Type = Inproceedings
+\bibitem[{Bonawitz et~al.(2017)Bonawitz, Ivanov, Kreuter, Marcedone, McMahan,
+  Patel, Ramage, Segal, and Seth}]{Bonawitz:2017}
+\bibinfo{author}{K.~Bonawitz}, \bibinfo{author}{V.~Ivanov},
+  \bibinfo{author}{B.~Kreuter}, \bibinfo{author}{A.~Marcedone},
+  \bibinfo{author}{H.~B. McMahan}, \bibinfo{author}{S.~Patel},
+  \bibinfo{author}{D.~Ramage}, \bibinfo{author}{A.~Segal},
+  \bibinfo{author}{K.~Seth},
+\newblock \bibinfo{title}{Practical secure aggregation for privacy-preserving
+  machine learning},
+\newblock in: \bibinfo{booktitle}{Proceedings of the ACM SIGSAC Conference on
+  Computer and Communications Security}, \bibinfo{year}{2017}, pp.
+  \bibinfo{pages}{1175--1191}.
+
+\end{thebibliography}

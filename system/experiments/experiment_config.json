@@ -1,0 +1,115 @@
+{
+    "experiment_name": "FedCAD_Complete_Experiments",
+    "version": "1.0",
+    "date": "2026-02-02",
+    
+    "基础设置": {
+        "n_clients": 10,
+        "n_malicious": 3,
+        "malicious_ratio": "30%",
+        "gradient_dim": 10000,
+        "n_rounds": 50,
+        "seed": 42
+    },
+    
+    "攻击类型": {
+        "基础攻击": ["sign_flip", "gaussian", "scale", "zero"],
+        "优化攻击": ["little", "alie", "ipm", "minmax"],
+        "语义攻击": ["label_flip", "backdoor", "free_rider", "collision"],
+        "总计": 12
+    },
+    
+    "检测方法": {
+        "基线": ["Median", "TrimMean", "Krum", "MultiKrum", "Bulyan", "FLTrust"],
+        "我们的方法": ["FedCAD"],
+        "总计": 7
+    },
+    
+    "异质性类型": {
+        "类型": ["iid", "label", "feature", "quantity"],
+        "说明": {
+            "iid": "独立同分布",
+            "label": "标签偏斜 (Label Skew)",
+            "feature": "特征偏斜 (Feature Skew)",
+            "quantity": "数量偏斜 (Quantity Skew)"
+        },
+        "总计": 4
+    },
+    
+    "聚合算法": {
+        "类型": ["fedavg", "fedprox", "scaffold", "moon", "fednova"],
+        "用途": "验证FedCAD聚合无关性",
+        "总计": 5
+    },
+    
+    "数据集": {
+        "类型": ["Uci", "Xinwang"],
+        "说明": {
+            "Uci": "UCI信用卡违约数据集 (23特征, 30000样本)",
+            "Xinwang": "新网银行信用数据集 (38特征, 17886样本)"
+        },
+        "总计": 2
+    },
+    
+    "实验设计": {
+        "实验1_检测性能对比": {
+            "目标": "证明FedCAD检测恶意客户端的能力优于基线",
+            "设置": "12攻击 × 4异质性 × 7检测方法",
+            "指标": ["Precision", "Recall", "F1-score"],
+            "配置数": 336
+        },
+        "实验2_模型质量验证": {
+            "目标": "证明检测后模型性能接近无攻击基线",
+            "基线": {
+                "Clean": "无攻击 (Upper Bound)",
+                "NoDefense": "有攻击无检测 (Lower Bound)"
+            },
+            "指标": ["Accuracy", "AUC", "Gap to Clean"]
+        },
+        "实验3_聚合无关性验证": {
+            "目标": "证明FedCAD可与任意聚合算法配合",
+            "设置": "FedCAD + 5种聚合算法",
+            "预期": "不同聚合算法下检测性能稳定"
+        },
+        "实验4_消融实验": {
+            "目标": "验证各组件贡献",
+            "变体": {
+                "Full_FedCAD": "完整方法",
+                "wo_Committee": "移除委员会 (仅自编码器)",
+                "wo_Direction": "移除方向通道 (仅重构)",
+                "Committee_Only": "仅委员会 (无自编码器)"
+            }
+        },
+        "实验5_参数敏感性": {
+            "目标": "分析关键参数影响",
+            "参数": {
+                "committee_size": [3, 4, 5, 6, 7, 8],
+                "recon_weight": [0.3, 0.4, 0.5, 0.6, 0.7, 0.8],
+                "mad_k": [2.5, 3.0, 3.5, 4.0, 4.5, 5.0]
+            }
+        }
+    },
+    
+    "评估指标": {
+        "检测指标": {
+            "Precision": "精确率 = TP / (TP + FP)",
+            "Recall": "召回率 = TP / (TP + FN)",
+            "F1": "F1分数 = 2 * P * R / (P + R)",
+            "说明": "TP=正确检测的恶意, FP=误报, FN=漏检"
+        },
+        "模型指标": {
+            "Accuracy": "准确率",
+            "AUC": "ROC曲线下面积",
+            "Gap_to_Clean": "与无攻击基线的差距"
+        }
+    },
+    
+    "输出文件": {
+        "JSON": "all_results_{timestamp}.json",
+        "LaTeX": "tables_{timestamp}.tex",
+        "Excel": [
+            "experiment1_detection_{timestamp}.xlsx",
+            "experiment4_ablation_{timestamp}.xlsx"
+        ]
+    }
+}
